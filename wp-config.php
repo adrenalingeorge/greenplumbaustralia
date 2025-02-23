@@ -22,7 +22,7 @@
 /** The name of the database for WordPress */
 define('WP_CACHE', true);
 define( 'WPCACHEHOME', 'C:\wamp64\www\greenplumbaustralia.com.au\wp-content\plugins\wp-super-cache/' );
-define( 'DB_NAME', 'greenplumbaustralia.com.au' );
+define( 'DB_NAME', 'wordpress' );
 
 /** Database username */
 define( 'DB_USER', 'greenplumbaustralia' );
@@ -31,7 +31,7 @@ define( 'DB_USER', 'greenplumbaustralia' );
 define( 'DB_PASSWORD', 'AMdh&QrnE4Pbrdx#' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost:3307' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -50,14 +50,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         '8{j.6SoM_(|q Y%Fg5pTSsBqrh|Upsh&s3Yt *Q-Pd#>O)OzhxkO^ME=T)0tgs$-');
+define('SECURE_AUTH_KEY',  'Qr8YDO0ys9;*a}Xf#6acJl6])=@+!,X/6rO7Y{XJTk2cEFU|Xm~y,-{(S^fKG%4t');
+define('LOGGED_IN_KEY',    'z3EM>|Kif/bc{lX-4E1d`>iE4ofeLp_q,bGHs8n97v5>(|s)Q-2Kno&P8%FTP<`6');
+define('NONCE_KEY',        'L>U,*H8_ G3_q5TcJj{F^Yu;Eu-|dr%)4Fy)Q#<4TWGSYYr(q{ps3OInL?w;G%#&');
+define('AUTH_SALT',        ';Z|:3jt5NihdT:1;YJk|2TKA&on*+M3lVl3`{.9+qqF.NN&ccZABNw4u.bmW|}8G');
+define('SECURE_AUTH_SALT', 'Rc?DkJ%/DLKN3#^U76a*HN-`nxi/eXp.LWj5z=^!psToBzR>U4tG;iVd+_FSJjn7');
+define('LOGGED_IN_SALT',   '/QivSpa=rR:D|-weG-[+j7:}3tUJZ_:$.cOU35%WG<c#kUpJXwZXh}Bi3:Ya1J^$');
+define('NONCE_SALT',       '/[RRE,k!I06+}-,#CkA(%34LO#u^VJ>)|AoB30e4Z Ji^c:zxI0`Mud6uJ|PbM,C');
 
 /**#@-*/
 
@@ -87,7 +87,10 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
