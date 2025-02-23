@@ -18,7 +18,7 @@ access_log
 
 # Dependency directories
 node_modules/
-vendor/
+# vendor/
 =======
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
@@ -28,11 +28,12 @@ vendor/
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
 /wp-admin/
-/wp-content/index.php
+# /wp-content/index.php
 /wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
+# /wp-content/plugins/index.php
+# /wp-content/themes/index.php
+# /wp-includes/
+/wp-content/fonts/
 /index.php
 /license.txt
 /readme.html
@@ -55,7 +56,7 @@ wp-config.php
 *.log
 
 # htaccess
-/.htaccess
+# /.htaccess
 
 # All plugins
 #

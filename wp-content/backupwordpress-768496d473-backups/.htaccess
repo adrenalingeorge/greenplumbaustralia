@@ -1,0 +1,14 @@
+
+# BEGIN BackUpWordPress
+# The directives (lines) between "BEGIN BackUpWordPress" and "END BackUpWordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+# This .htaccess file ensures that other people cannot download your backup files.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} !key=768496d473e68d9c925c6ed0e920bf4f
+RewriteRule (.*) - [F]
+</IfModule>
+
+# END BackUpWordPress
