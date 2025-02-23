@@ -1,10 +1,10 @@
 # WordPress core files to ignore
-wp-config.php
-wp-content/uploads/
-wp-content/upgrade/
-wp-content/cache/
-wp-content/backup-db/
-wp-content/backups/
+# wp-config.php
+# wp-content/uploads/
+# wp-content/upgrade/
+# wp-content/cache/
+# wp-content/backup-db/
+# wp-content/backups/
 
 # Various system files
 .DS_Store
@@ -17,7 +17,7 @@ error_log
 access_log
 
 # Dependency directories
-node_modules/
+# node_modules/
 # vendor/
 =======
 # Wordpress - ignore core, configuration, examples, uploads and logs.
@@ -27,36 +27,36 @@ node_modules/
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
-# /wp-content/index.php
-/wp-content/languages
-# /wp-content/plugins/index.php
+# /wp-admin/
+# # /wp-content/index.php
+# /wp-content/languages
+# # /wp-content/plugins/index.php
 # /wp-content/themes/index.php
-# /wp-includes/
+# # /wp-includes/
 /wp-content/fonts/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+# /index.php
+# /license.txt
+# /readme.html
+# /wp-*.php
+# /xmlrpc.php
 
-# Configuration
-wp-config.php
+# # Configuration
+# wp-config.php
 
 # Example themes
 /wp-content/themes/twenty*/
 
-# Example plugin
-/wp-content/plugins/hello.php
+# # Example plugin
+# /wp-content/plugins/hello.php
 
-# Uploads
-/wp-content/uploads/
+# # Uploads
+# /wp-content/uploads/
 
-# Log files
-*.log
+# # Log files
+# *.log
 
-# htaccess
-# /.htaccess
+# # htaccess
+# # /.htaccess
 
 # All plugins
 #
