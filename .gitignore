@@ -72,3 +72,5 @@ access_log
 
 competitors.txt
 greenplumbaustralia.com.au.code-workspace
+
+*.sql
